@@ -100,7 +100,7 @@ MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC
 ---  
 
 1. **Vstup do servisního režimu**
-   * Při zapnutí napájení (nebo po restartu) **podržte horní tlačítko (BOOT) na monitoru**.
+   * Při zapnutí napájení (nebo po restartu - spodní tlačítko EN) **podržte horní tlačítko (BOOT) na monitoru**.
    * Monitor se přepne do servisního režimu a vytvoří vlastní Wi-Fi síť.
    * Na displeji se zobrazí servisní obrazovka s IP adresou `10.10.10.10`.
 
