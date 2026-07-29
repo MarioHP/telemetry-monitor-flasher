@@ -96,14 +96,7 @@ MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC
 6. Dole na obrazovce nebo v detailu zařízení uvidíte položku **MAC adresa** (nebo *Adresa zařízení*).
 
 > 💡 **Tip pro Android:** Pokud vaše verze Androidu MAC adresu v nastavení neskrývá, stačí v Google Play zdarma stáhnout aplikaci **Serial Bluetooth Terminal** nebo **OBD Auto Doctor**, které MAC adresu připojeného adaptéru zobrazí okamžitě.
-
----
-
-### 🍏 iPhone (iOS)
-*Systém iOS ze bezpečnostních důvodů klasickou Bluetooth MAC adresu adaptéru přímo v nastavení nezobrazuje.*
-
-* **Řešení:** Pokud váš adaptér podporuje **BLE (Bluetooth Low Energy / Bluetooth 4.0+)**, přímo v aplikaci monitoru stačí použít automatické vyhledávání, případně název BLE zařízení.
-  
+ 
 ---  
 
 1. **Vstup do servisního režimu**
