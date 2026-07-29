@@ -66,6 +66,27 @@ S novou verzí systému **již nemusíte zařízení připojovat k počítači**
 
 Pokud si pořídíte nový OBD adaptér nebo potřebujete změnit jeho propojení, můžete MAC adresu snadno upravit přes webové rozhraní:
 
+## 🔍 Jak zjistit MAC adresu OBD-II adaptéru v telefonu
+
+MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC`). Zde je nejrychlejší postup, jak ji zjistit:
+
+### 📱 Android
+1. Zapněte zapalování v autě a zapojte OBD-II adaptér do zásuvky.
+2. V telefonu otevřete **Nastavení ⚙️ ➔ Bluetooth**.
+3. Dejte **Spárovat nové zařízení** (případně vyhledejte nová zařízení).
+4. Klikněte na váš OBD adaptér (často se jmenuje `OBDII`, `OBD2`, `V-GATE` nebo `ELM327`).
+5. Po spárování klikněte v seznamu spárovaných zařízení na **ikonu ozubeného kolečka ⚙️** vedle názvu adaptéru.
+6. Dole na obrazovce nebo v detailu zařízení uvidíte položku **MAC adresa** (nebo *Adresa zařízení*).
+
+> 💡 **Tip pro Android:** Pokud vaše verze Androidu MAC adresu v nastavení neskrývá, stačí v Google Play zdarma stáhnout aplikaci **Serial Bluetooth Terminal** nebo **OBD Auto Doctor**, které MAC adresu připojeného adaptéru zobrazí okamžitě.
+
+---
+
+### 🍏 iPhone (iOS)
+*Systém iOS ze bezpečnostních důvodů klasickou Bluetooth MAC adresu adaptéru přímo v nastavení nezobrazuje.*
+
+* **Řešení:** Pokud váš adaptér podporuje **BLE (Bluetooth Low Energy / Bluetooth 4.0+)**, přímo v aplikaci monitoru stačí použít automatické vyhledávání, případně název BLE zařízení.
+  
 1. **Vstup do servisního režimu**
    * Při zapnutí napájení (nebo po restartu) **podržte horní tlačítko (BOOT) na monitoru**.
    * Monitor se přepne do servisního režimu a vytvoří vlastní Wi-Fi síť.
