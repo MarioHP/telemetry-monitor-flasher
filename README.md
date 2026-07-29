@@ -70,7 +70,7 @@ Pro profesionální vzhled a ochranu displeje v autě si můžete vytisknout vla
   Odpojte USB kabel na 2 sekundy od počítače a znovu jej zapojte (případně zmáčkněte tlačítko **RESET** na desce).
 
 ---
-
+---
 
 # 📱 Bezdrátová konfigurace a OTA aktualizace
 
