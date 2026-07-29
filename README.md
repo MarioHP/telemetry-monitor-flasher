@@ -56,11 +56,13 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 
 ---
 
+
 # 📱 Bezdrátová konfigurace a OTA aktualizace
 
 S novou verzí systému **již nemusíte zařízení připojovat k počítači** ani instalovat jakékoliv vývojářské prostředí! Veškeré nastavení i budoucí aktualizace firmwaru pohodlně vyřešíte **přímo z vašeho mobilního telefonu**.
 
 ---
+
 
 ## ⚙️ 1. Změna MAC adresy OBD adaptéru
 
