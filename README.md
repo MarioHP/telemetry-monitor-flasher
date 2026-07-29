@@ -1,15 +1,14 @@
 # 🏎️ Telemetry Monitor — Web Installer
 
 Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pro projekt **Telemetry Monitor** přímo z prohlížeče bez nutnosti instalace jakéhokoliv vývojového prostředí (Arduino IDE, VS Code) nebo externích nástrojů (`esptool`).
-
-🌐 **Webový instalátor běží na adrese:**  
-👉 **[mariohp.github.io/telemetry-monitor-flasher/](https://mariohp.github.io/telemetry-monitor-flasher/)**
-
 **VIDEO**
 
 <a href="https://youtu.be/QvaUA5twQTg">
   <img src="https://img.youtube.com/vi/QvaUA5twQTg/maxresdefault.jpg" width="600" alt="Watch the video">
 </a>
+
+🌐 **Webový instalátor běží na adrese:**  
+👉 **[mariohp.github.io/telemetry-monitor-flasher/](https://mariohp.github.io/telemetry-monitor-flasher/)**
 
 ---
 
