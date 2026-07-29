@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telemetry Monitor - Web Installer</title>
+    <!-- Načtení oficiálního ESP Web Tools skriptu -->
+    <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            border: 1px solid #333;
+        }
+        h1 { color: #00b4d8; margin-bottom: 10px; }
+        p { color: #ccc; line-height: 1.5; }
+        esp-web-install-button {
+            margin-top: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Telemetry Monitor</h1>
+    <h3>Web Firmware Installer</h3>
+    <p>Připojte vaše zařízení k počítači pomocí USB kabelu a klikněte na tlačítko níže pro instalaci nejnovějšího firmwaru.</p>
+    
+    <!-- Tlačítko pro instalaci přes manifest -->
+    <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+</div>
+
+</body>
+</html>
