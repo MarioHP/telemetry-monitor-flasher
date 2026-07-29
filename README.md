@@ -126,7 +126,7 @@ Pro budoucí aktualizace kódu už nepotřebujete USB kabel. Vše probíhá bezd
 
 1. Stáhněte si do mobilu nový soubor firmwaru s příponou **`.bin`**:  
    👉 [firmware_v1.0.0.bin (Škoda Karoq (TSI/TFSI EA211 1.0L/1.2L/1.4L/1.5L)](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware_v1.0.0.bin)
-2. Spusťte servisní režim na monitoru (podržením tlačítka při zapnutí).
+2. Spusťte servisní režim na monitoru (podržením horního tlačítka (BOOT) při zapnutí).
 3. Připojte mobil k Wi-Fi síti monitoru a v prohlížeči otevřete:  
    👉 **`10.10.10.10/update`**
 4. Vyberte stažený soubor `.bin` z paměti telefonu a stiskněte **Update** (Aktualizovat).
