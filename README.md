@@ -5,6 +5,12 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 🌐 **Webový instalátor běží na adrese:**  
 👉 **[mariohp.github.io/telemetry-monitor-flasher/](https://mariohp.github.io/telemetry-monitor-flasher/)**
 
+**VIDEO**
+
+<a href="https://youtu.be/QvaUA5twQTg">
+  <img src="https://img.youtube.com/vi/QvaUA5twQTg/maxresdefault.jpg" width="600" alt="Watch the video">
+</a>
+
 ---
 
 ## 🚀 Jak nahrát firmware do zařízení
