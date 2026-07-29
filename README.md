@@ -115,7 +115,7 @@ MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC
    * Zadaná adresa se bezpečně uloží do trvalé paměti **NVS** (zůstane bezpečně zachována i po kompletním odpojení od autobaterie).
 
 4. **Restart**
-   * Klikněte na tlačítko **Restart** (nebo zařízení krátce odpojte od napájení).
+   * Klikněte na spodní tlačítko (EN) **Restart** (nebo zařízení krátce odpojte od napájení).
    * Monitor se po náběhu okamžitě spáruje s novým OBD adaptérem.
 
 ---
