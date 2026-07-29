@@ -1,6 +1,8 @@
 # 🏎️ Telemetry Monitor — Web Installer
 
 Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pro projekt **Telemetry Monitor** přímo z prohlížeče bez nutnosti instalace jakéhokoliv vývojového prostředí (Arduino IDE, VS Code) nebo externích nástrojů (`esptool`).
+🌐 **Webový instalátor běží na adrese:**  
+👉 **[mariohp.github.io/telemetry-monitor-flasher/](https://mariohp.github.io/telemetry-monitor-flasher/)**
 
 **VIDEO S UKÁZKOU MONITORU**
 
@@ -8,9 +10,15 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
   <img src="https://img.youtube.com/vi/QvaUA5twQTg/maxresdefault.jpg" width="600" alt="Watch the video">
 </a>
 
-🌐 **Webový instalátor běží na adrese:**  
-👉 **[mariohp.github.io/telemetry-monitor-flasher/](https://mariohp.github.io/telemetry-monitor-flasher/)**
+---
 
+## 🖨️ 3D Tisk & Krabička
+
+Pro profesionální vzhled a ochranu displeje v autě si můžete vytisknout vlastní krabičku na 3D tiskárně:
+
+* 📦 **Model krabičky ke stažení:**  
+  👉 [IdeaSpark ESP32 1.9" Display Case na Printables.com](https://www.printables.com/model/1580661-ideaspark-esp32-19-display-case)
+  
 ---
 
 ## 🚀 Jak nahrát firmware do zařízení
