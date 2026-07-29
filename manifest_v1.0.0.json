@@ -5,8 +5,8 @@
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "skoda_karoq_hidden_engine_telemetry_MAC.ino.bootloader.bin", "offset": 4096 },
-        { "path": "skoda_karoq_hidden_engine_telemetry_MAC.ino.partitions.bin", "offset": 32768 },
+        { "path": "firmware_bootloader.bin", "offset": 4096 },
+        { "path": "firmware_partitions.bin", "offset": 32768 },
         { "path": "firmware_v1.0.0.bin", "offset": 65536 }
       ]
     }
