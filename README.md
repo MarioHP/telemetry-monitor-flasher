@@ -1,4 +1,4 @@
-# 🏎️ Telemetry Monitor — Web Installer
+# 🏎️ Škoda KAROQ Telemetry Monitor — Web Installer
 
 Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pro projekt **Telemetry Monitor** přímo z prohlížeče bez nutnosti instalace jakéhokoliv vývojového prostředí (Arduino IDE, VS Code) nebo externích nástrojů (`esptool`).
 
