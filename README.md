@@ -116,8 +116,8 @@ MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC
 
 Pro budoucí aktualizace kódu už nepotřebujete USB kabel. Vše probíhá bezdrátově přes rozhraní **OTA (Over-The-Air)**:
 
-1. Stáhněte si do mobilu nový soubor firmwaru s příponou **`.bin`** 
-<a href="[https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware_v1.0.0.bin](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware_v1.0.0.bin)">firmware_v1.0.0.bin</a>
+1. Stáhněte si do mobilu nový soubor firmwaru s příponou **`.bin`**:  
+   👉 [firmware_v1.0.0.bin](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware_v1.0.0.bin)
 2. Spusťte servisní režim na monitoru (podržením tlačítka při zapnutí).
 3. Připojte mobil k Wi-Fi síti monitoru a v prohlížeči otevřete:  
    👉 **`10.10.10.10/update`**
