@@ -87,6 +87,8 @@ MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC
 
 * **Řešení:** Pokud váš adaptér podporuje **BLE (Bluetooth Low Energy / Bluetooth 4.0+)**, přímo v aplikaci monitoru stačí použít automatické vyhledávání, případně název BLE zařízení.
   
+---  
+
 1. **Vstup do servisního režimu**
    * Při zapnutí napájení (nebo po restartu) **podržte horní tlačítko (BOOT) na monitoru**.
    * Monitor se přepne do servisního režimu a vytvoří vlastní Wi-Fi síť.
