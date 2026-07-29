@@ -67,7 +67,7 @@ S novou verzí systému **již nemusíte zařízení připojovat k počítači**
 Pokud si pořídíte nový OBD adaptér nebo potřebujete změnit jeho propojení, můžete MAC adresu snadno upravit přes webové rozhraní:
 
 1. **Vstup do servisního režimu**
-   * Při zapnutí napájení (nebo po restartu) **podržte tlačítko na monitoru**.
+   * Při zapnutí napájení (nebo po restartu) **podržte horní tlačítko na monitoru**.
    * Monitor se přepne do servisního režimu a vytvoří vlastní Wi-Fi síť.
    * Na displeji se zobrazí servisní obrazovka s IP adresou `10.10.10.10`.
 
