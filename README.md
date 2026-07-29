@@ -26,7 +26,7 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
    * Ve vašem prohlížeči otevřete stránku [mariohp.github.io/telemetry-monitor-flasher/](https://mariohp.github.io/telemetry-monitor-flasher/).
 
 3. **Výběr verze**
-   * Z rozevíracího seznamu zvolte **požadovanou verzi firmwaru** (doporučujeme vždy nejnovější verzi).
+   * Z rozevíracího seznamu zvolte **požadovanou verzi firmwaru** (podle kódu motoru vozidla).
    * Přečtěte si přehled změn (Changelog) pro vybranou verzi.
 
 4. **Připojení k zařízení**
