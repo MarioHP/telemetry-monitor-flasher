@@ -10,7 +10,22 @@
         .card { background: #1e1e1e; max-width: 500px; margin: 0 auto; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); border: 1px solid #333; }
         h1 { color: #00b4d8; margin-bottom: 5px; }
         p { color: #ccc; line-height: 1.5; }
-        select { background: #2a2a2a; color: #00b4d8; border: 1px solid #00b4d8; padding: 10px; font-size: 16px; border-radius: 6px; margin: 15px 0; outline: none; width: 80%; cursor: pointer; }
+        
+        select { background: #2a2a2a; color: #00b4d8; border: 1px solid #00b4d8; padding: 10px; font-size: 16px; border-radius: 6px; margin: 15px 0; outline: none; width: 100%; cursor: pointer; }
+        
+        /* Boxik pro popis verze */
+        .changelog {
+            background: #252525;
+            border-left: 4px solid #00b4d8;
+            padding: 12px 15px;
+            text-align: left;
+            margin: 15px 0;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #ddd;
+        }
+        .changelog ul { margin: 5px 0 0 20px; padding: 0; }
+        
         esp-web-install-button { margin-top: 15px; display: inline-block; }
     </style>
 </head>
@@ -19,26 +34,52 @@
 <div class="card">
     <h1>Telemetry Monitor</h1>
     <h3>Web Firmware Installer</h3>
-    <p>Vyberte požadovanou verzi firmwaru, připojte zařízení přes USB a klikněte na Connect.</p>
+    <p>Vyberte verzi firmwaru, připojte zařízení k PC a klikněte na Connect.</p>
     
-    <!-- Výběrové menu verzí -->
-    <select id="versionSelect" onchange="updateManifest()">
-        <option value="manifest_v1.1.0.json">v1.1.0 (Nejnovější - Stable)</option>
-        <option value="manifest_v1.0.0.json">v1.0.0 (Původní verze)</option>
+    <!-- Výběr verze -->
+    <select id="versionSelect" onchange="updateVersion()">
+        <option value="v1.0.0">v1.0.0 (Původní verze)</option>
     </select>
-    <br>
 
-    <!-- Tlačítko instalační lišty -->
+    <!-- Zde se zobrazuje popis verze -->
+    <div id="versionDescription" class="changelog">
+        <!-- Text se vloží dynamicky pomocí JS -->
+    </div>
+
+    <!-- Tlačítko pro instalaci -->
     <esp-web-install-button id="installer" manifest="manifest_v1.1.0.json"></esp-web-install-button>
 </div>
 
 <script>
-    function updateManifest() {
-        const select = document.getElementById('versionSelect');
+    // Popisy jednotlivých verzí (Changelog)
+    const versionData = {
+        "v1.0.0": {
+            manifest: "manifest_v1.0.0.json",
+            description: `
+                <b>Verze v1.0.0:</b>
+                <ul>
+                    <li>První stabilní verze</li>
+                    <li>Základní telemetrie Škoda Karoq (rychlost, teplota kapaliny a oleje, Napětí ECU a hladina oleje)</li>
+                    <li>Doplňková telemetrie Škoda Karoq (napětí OBD, kroutící moment motoru, teplota katalyzátoru, paliva a výfuku, degradace oleje)</li>
+                </ul>
+            `
+        }
+    };
+
+    function updateVersion() {
+        const selectedVersion = document.getElementById('versionSelect').value;
         const installer = document.getElementById('installer');
-        // Přepne manifest podle vybrané možnosti v menu
-        installer.setAttribute('manifest', select.value);
+        const descBox = document.getElementById('versionDescription');
+
+        // Aktualizuje manifest v tlačítku
+        installer.setAttribute('manifest', versionData[selectedVersion].manifest);
+        
+        // Aktualizuje text popisu
+        descBox.innerHTML = versionData[selectedVersion].description;
     }
+
+    // Načte popis pro výchozí zvolenou verzi při otevření stránky
+    updateVersion();
 </script>
 
 </body>
