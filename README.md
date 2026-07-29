@@ -2,7 +2,7 @@
 
 Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pro projekt **Telemetry Monitor** přímo z prohlížeče bez nutnosti instalace jakéhokoliv vývojového prostředí (Arduino IDE, VS Code) nebo externích nástrojů (`esptool`).
 
-**VIDEO**
+**VIDEO S UKÁZKOU MONITORU**
 
 <a href="https://youtu.be/QvaUA5twQTg">
   <img src="https://img.youtube.com/vi/QvaUA5twQTg/maxresdefault.jpg" width="600" alt="Watch the video">
