@@ -5,15 +5,16 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 🌐 **Webový instalátor běží na adrese:**  
 👉 **[mariohp.github.io/telemetry-monitor-flasher/](https://mariohp.github.io/telemetry-monitor-flasher/)**
 
-**VIDEO S UKÁZKOU MONITORU**
-
+**🎥 VIDEO S UKÁZKOU MONITORU**
+<p align="center">
 <a href="https://youtu.be/QvaUA5twQTg">
-  <img src="https://img.youtube.com/vi/QvaUA5twQTg/maxresdefault.jpg" width="600" alt="Watch the video">
+  <img src="https://img.youtube.com/vi/QvaUA5twQTg/maxresdefault.jpg" width="500" alt="Watch the video">
 </a>
-
+</p>
 
 ## 🖨️ HARDWARE
-<img src="https://m.media-amazon.com/images/I/71fOYS7KVzL.jpg" width="250" alt="ideaspark® ESP32 Development Board">
+
+<p align="center"><img src="https://m.media-amazon.com/images/I/71fOYS7KVzL.jpg" width="250" alt="ideaspark® ESP32 Development Board"></p>
 ideaspark® ESP32 Development Board 1.9 inch ST7789 170x320 TFT
 
 ## 🖨️ 3D Tisk & Krabička
