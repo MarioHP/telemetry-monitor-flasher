@@ -1,6 +1,6 @@
 {
-  "name": "KAROQ Telemetry Monitor",
-  "version": "1.0.0",
+  "name": "KAROQ Telemetry Monitor v1.0.0",
+  "version": "",
   "builds": [
     {
       "chipFamily": "ESP32",
