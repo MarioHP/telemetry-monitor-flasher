@@ -15,7 +15,7 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 
 ## 🖨️ HARDWARE
 <img src="https://m.media-amazon.com/images/I/71fOYS7KVzL.jpg" width="300" alt="ideaspark® ESP32 Development Board">
-ideaspark® ESP32 Development Board
+ideaspark® ESP32 Development Board 1.9 inch ST7789 170x320 TFT
 
 ## 🖨️ 3D Tisk & Krabička
 
