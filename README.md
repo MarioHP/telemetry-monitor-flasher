@@ -68,7 +68,7 @@ Pro profesionální vzhled a ochranu displeje v autě si můžete vytisknout vla
 * **Prohlížeč nenabízí žádný COM port:**  
   Zkontrolujte, zda máte v počítači nainstalované ovladače pro USB převodník vašeho ESP32 (nejčastěji řada **CP210x** nebo **CH340**).
 * **Instalace se zasekne na 0 % (Connecting...):**  
-  Při kliknutí na tlačítko *Install* stiskněte a krátce podržte tlačítko **BOOT** (případně **IO0**) přímo na desce ESP32, dokud nahrávání nezačne.
+  Při kliknutí na tlačítko *Install* stiskněte a krátce podržte tlačítko **BOOT** přímo na desce ESP32, dokud nahrávání nezačne.
 * **Po flashnutí zařízení nenaskočí:**  
   Odpojte USB kabel na 2 sekundy od počítače a znovu jej zapojte (případně zmáčkněte tlačítko **RESET** na desce).
 
