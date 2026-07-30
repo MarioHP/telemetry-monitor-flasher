@@ -55,7 +55,6 @@ Pro profesionální vzhled a ochranu displeje v autě si můžete vytisknout vla
 5. **Zahájení flashování**
    * V dialogovém okně klikněte na **INSTALL TELEMETRY MONITOR**.
    * Potvrďte volbu stisknutím **INSTALL**.
-   * *(Volitelné)* Pokud chcete zařízení kompletně vyčistit od starých dat a nastavení, zaškrtněte možnost *Erase device*.
 
 6. **Dokončení**
    * Počkejte, až ukazatel průběhu dosáhne **100 %** (trvá cca 30–60 sekund).
