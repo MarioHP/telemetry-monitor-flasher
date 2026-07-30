@@ -12,7 +12,7 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 </a>
 
 ---
-
+<img src="https://m.media-amazon.com/images/I/71fOYS7KVzL.jpg" width="300" alt="ideaspark® ESP32 Development Board">
 ## 🖨️ 3D Tisk & Krabička
 
 Pro profesionální vzhled a ochranu displeje v autě si můžete vytisknout vlastní krabičku na 3D tiskárně:
