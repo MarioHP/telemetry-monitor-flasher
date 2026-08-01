@@ -128,7 +128,7 @@ MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC
 Pro budoucí aktualizace kódu už nepotřebujete USB kabel. Vše probíhá bezdrátově přes rozhraní **OTA (Over-The-Air)**:
 
 1. Stáhněte si do mobilu nový soubor firmwaru s příponou **`.bin`**:  
-   👉 [firmware_v1.0.0.bin (KAROQ Sportline (TSI/TFSI EA211 1.5L)](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware_v1.0.0.bin)
+   👉 [v1.0.0 - KAROQ Sportline 1.5 TSI (DXD) - Ideaspark 1.9 display](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware/v1.0.0/firmware_v1.0.0.bin)
 2. Spusťte servisní režim na monitoru (podržením horního tlačítka (BOOT) při zapnutí).
 3. Připojte mobil k Wi-Fi síti monitoru a v prohlížeči otevřete:  
    👉 **`10.10.10.10/update`**
