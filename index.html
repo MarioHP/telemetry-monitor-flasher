@@ -13,7 +13,6 @@
         
         select { background: #2a2a2a; color: #00b4d8; border: 1px solid #00b4d8; padding: 10px; font-size: 16px; border-radius: 6px; margin: 15px 0; outline: none; width: 100%; cursor: pointer; }
         
-        /* Boxik pro popis verze */
         .changelog {
             background: #252525;
             border-left: 4px solid #00b4d8;
@@ -34,35 +33,34 @@
 <div class="card">
     <h1>Škoda Telemetry Monitor</h1>
     <h3>Web Firmware Installer</h3>
-    <p>designed by Mario</p>
+    <p>created by Mario</p>
     <p>Vyberte verzi firmwaru, připojte zařízení k PC a klikněte na Connect.</p>
     
     <!-- Výběr verze -->
     <select id="versionSelect" onchange="updateVersion()">
-        <option value="v1.0.0">v1.0.0 - KAROQ Sportline TSI/TFSI EA211 1.5L</option>
+      <option value="v1.0.0">v1.0.0 - KAROQ Sportline 1.5 TSI (DXD) - Ideaspark 1.9 display</option>
     </select>
 
-    <!-- Zde se zobrazuje popis verze -->
-    <div id="versionDescription" class="changelog">
-        <!-- Text se vloží dynamicky pomocí JS -->
-    </div>
+    <!-- Popis verze -->
+    <div id="versionDescription" class="changelog"></div>
 
     <!-- Tlačítko pro instalaci -->
-    <esp-web-install-button id="installer" manifest="manifest_v1.1.0.json"></esp-web-install-button>
+    <esp-web-install-button id="installer"></esp-web-install-button>
 </div>
 
 <script>
-    // Popisy jednotlivých verzí (Changelog)
-    const versionData = {
+    const versionData = { 
         "v1.0.0": {
             manifest: "manifest_v1.0.0.json",
             description: `
-                <b>Verze 1.0.0:</b>
+                <b>Verze 1.0.0 (Původní release):</b>
                 <ul>
-                    <li>Logo KAROQ Sportline při startu</li>
-                    <li>Základní telemetrie: rychlost, teplota kapaliny a oleje, napětí ECU a hladina oleje</li>
-                    <li>Doplňková telemetrie: napětí OBD, kroutící moment motoru, teplota katalyzátoru, paliva a výfuku, degradace oleje</li>
-                    <li>Kompatibilní motory: CMBA, CPVA, CXSA, CXSB, CPVB, CHPA, CHPB, CZCC, CZCA, CZCB, CZDB, CZDA, CZTA, CVNA, CPTA, CZEA, DGXA, DJKA, DJZA, DJSA, DLEA, CHZA, CYVA, CYVB, DACA, DADA, DPCA, DSBA, DXD</li>
+                  <li>Logo KAROQ + Sportline při startu</li>
+                  <li>Základní telemetrie: rychlost, teplota kapaliny a oleje, napětí ECU a hladina oleje</li>
+                  <li>Doplňková telemetrie: napětí OBD, kroutící moment motoru, teplota katalyzátoru, paliva a výfuku, degradace oleje</li>
+                  <li>Primárně určeno pro motor DXD (EA211 1.5 TSI KAROQ)</li>
+                  <li><b>Rozšířená kompatibilita EA211 (netestováno):</b><br>
+                  <small style="color:#aaa;">CMBA, CPVA, CXSA, CXSB, CPVB, CHPA, CHPB, CZCC, CZCA, CZCB, CZDB, CZDA, CZTA, CVNA, CPTA, CZEA, DGXA, DJKA, DJZA, DJSA, DLEA, CHZA, CYVA, CYVB, DACA, DADA, DPCA, DSBA</small></li>                    
                 </ul>
             `
         }
@@ -73,14 +71,10 @@
         const installer = document.getElementById('installer');
         const descBox = document.getElementById('versionDescription');
 
-        // Aktualizuje manifest v tlačítku
         installer.setAttribute('manifest', versionData[selectedVersion].manifest);
-        
-        // Aktualizuje text popisu
         descBox.innerHTML = versionData[selectedVersion].description;
     }
 
-    // Načte popis pro výchozí zvolenou verzi při otevření stránky
     updateVersion();
 </script>
 
