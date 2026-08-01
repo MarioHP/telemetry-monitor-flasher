@@ -1,6 +1,6 @@
 {
-  "name": "KAROQ Telemetry Monitor v1.0.0",
-  "version": "",
+  "name": "KAROQ Sportline 1.5 TSI EVO2",
+  "version": "v1.0.0",
   "builds": [
     {
       "chipFamily": "ESP32",
