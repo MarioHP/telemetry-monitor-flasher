@@ -82,14 +82,15 @@ Digitální údaj přímo z řídící jednotky (přesnější než tachometr). 
   - 134–140 km/h (Limit dálnice)
   - 🟥 **Červená** - nad 160 km/h! 
 
-### 4. Palubní napětí ECU (`NAPETI`)
+### 4. Palubní napětí ECU (`vlevo dole`)
 Sledování inteligentního dobíjení přímo ze senzoru jednotky.
 - 🟥 **Červená:** Baterie se vybíjí (motor vypnutý/slabý alternátor).
 - 🟩 **Limetková:** Standardní dobíjení za jízdy.
 - 🟨 **Zlatá:** Aktivní rekuperace (brzdění motorem, intenzivní dobíjení).
 
-### 4. Hladina oleje
-Přesné zobrazení náplně v mm - digitální měrka.
+### 4. Hladina oleje (`vpravo dole`)
+Přesné zobrazení náplně v mm - digitální měrka a výpočet množství chybějící náplně z aktuální výšky hladiny oleje, které je nutné dolít do maxima. 
+Údaj se mění s teplotou oleje, k ustálení dojde po zahřátí na provozní teplotu.
 - ⬜ **Šedá:** - OK
 - 🟧 **Oranžová** <40 mm (Varování)
 - 🟥 **Červená:** <36 mm (Dolít)
@@ -97,7 +98,9 @@ Přesné zobrazení náplně v mm - digitální měrka.
 ---
 
 ## 💡 Chytré funkce systému
-
+* **Prioritizace:** Rychlost se čte 2× za sekundu, statická data (teploty/hladina) každých 5 sekund.
+* **Watchdog:** Automatický restart systému při ztrátě dat nebo záseku komunikace.
+* **Design:** Custom fonty a grafika inspirovaná Virtual Cockpitem.
 * **Hystereze:** Zabraňuje zběsilému přepínání barev při jízdě na hranici limitu (např. stabilní barva při kolísání 53-54 km/h).
 * **Smoothing (Vyhlazování):** Optimalizované čtení dat z OBD sběrnice, které nezatěžuje procesor a nezpůsobuje záseky vykreslování.
 * **Periferní scannability:** Barevné schéma je navrženo tak, aby řidič nemusel číst čísla – stačí vnímat barvu v zorném poli.
