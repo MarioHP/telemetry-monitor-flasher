@@ -71,6 +71,7 @@ Aby displej komunikoval s vaším OBD2 adaptérem v autě, musíte po flashnutí
    <p align="center">  
    <img src="https://github.com/MarioHP/telemetry-monitor-flasher/blob/main/images/loga.png" width="400" alt="logo">
    </p>  
+   
    * **Jazyk:** Zvolte požadovaný jazyk rozhraní (Čeština, Slovenčina, English).
 5. **Uložení a restart:**
    * Stiskněte tlačítko **Uložit nastavení** / **Save Settings**.
