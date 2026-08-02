@@ -1,5 +1,26 @@
-# EA211 – Kompatibilní motory TSI/TFSI
+# 🛠️ Seznam podporovaných motorů EA211 (TSI / TFSI)
 
+Tento firmware primárně vychází z protokolu pro motor **1.5 TSI (DXD)**, ale obsahuje kompatibilní definice parametrů i pro ostatní motory řady EA211.
+
+---
+
+### 1. Hlavní otestovaný motor (100% Funkční)
+
+| Kód motoru | Objem | Výkon | Vozidlo (Testováno) |
+| :--- | :--- | :--- | :--- |
+| **DXD** | 1.5 TSI Evo2 | 110 kW | Škoda Karoq |
+
+---
+
+### 2. Rozšířená kompatibilita EA211 (Netestováno v provozu)
+
+Funkčnost na níže uvedených kódech motorů nebyla přímo ověřena, ale sdílejí stejné OBD/CAN adresy parametrů:
+
+| Typ | Kódy motorů |
+| :--- | :--- |
+| **EA211 (1.0 / 1.2 / 1.4 / 1.5 TSI)** | `CMBA`, `CPVA`, `CXSA`, `CXSB`, `CPVB`, `CHPA`, `CHPB`, `CZCC`, `CZCA`, `CZCB`, `CZDB`, `CZDA`, `CZTA`, `CVNA`, `CPTA`, `CZEA`, `DGXA`, `DJKA`, `DJZA`, `DJSA`, `DLEA`, `CHZA`, `CYVA`, `CYVB`, `DACA`, `DADA`, `DPCA`, `DSBA` |
+
+# EA211 – Kompatibilní motory TSI/TFSI
 | Kód motoru | Objem | Typický výkon | Nejčastější modely |
 |------------|-------|---------------|--------------------|
 | CMBA | 1.4 TSI | 90 kW | Škoda Octavia III, VW Golf VII, Golf Sportsvan |
