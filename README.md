@@ -79,7 +79,7 @@ Aby displej komunikoval s vaším OBD2 adaptérem v autě, musíte po flashnutí
      * **Heslo:** `12345678`
 3. **Otevření rozhraní nastavení:**
    * Otevřete webový prohlížeč a zadejte adresu:  
-     `http://10.10.10.10/config`
+    👉 **`http://10.10.10.10/config`**
 4. **Konfigurace parametrů:**
    * **Nová MAC adresa:** Zadejte MAC adresu vašeho Bluetooth OBD2 adaptéru (ve formátu `XX:XX:XX:XX:XX:XX`).
    * **Úvodní logo:** Vyberte preferované 3D logo při startu.  
