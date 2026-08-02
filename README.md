@@ -1,5 +1,7 @@
 # 🏎️ TELEMETRY MONITOR — Web Installer
-
+<p align="center">
+<img src="https://github.com/MarioHP/telemetry-monitor-flasher/blob/main/images/logo.png" width="400" alt="Watch the video">
+</p>  
 Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pro projekt **TELEMETRY MONITOR** přímo z prohlížeče bez nutnosti instalace jakéhokoliv vývojového prostředí (Arduino IDE, VS Code) nebo externích nástrojů (`esptool`).
 
 🌐 **Webový instalátor běží na adrese:**  
@@ -113,8 +115,6 @@ MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC
   * Při stisknutí tlačítka *Install* podržte na desce ESP32 tlačítko **BOOT** / **IO0**, dokud se nahrávání nerozběhne.
 
 ---
-
-## 📄 Licence & Podpora
 
 <p align="center">
   <i>Created by <b>Mario</b></i>
