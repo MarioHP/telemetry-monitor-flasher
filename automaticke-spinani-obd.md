@@ -1,9 +1,9 @@
 # Automatické spínání OBD napájení (ochrana proti vybití baterie)
 
 Tento modul slouží k tomu, aby se diagnostický adaptér (např. **VGATE**, **ELM327**) v OBD zásuvce zapínal pouze tehdy, když je auto nastartované nebo je zapnuté zapalování. 
-
+<p align="center">
 <img src="images/obd/10.png" width="300" alt="logo">
-
+</p> 
 Běžně je totiž **pin 16 v OBD zásuvce pod trvalým proudem 12 V** z autobaterie, což znamená, že zapojený adaptér buď neustále odebírá proud, nebo se sám uspí, ale po novém nastartování se musí probudit tlačítkem (např. VGATE).
 
 ---
