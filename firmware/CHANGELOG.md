@@ -80,7 +80,7 @@ Digitální údaj přímo z řídící jednotky (přesnější než tachometr). 
 - 🟦 **Modrá** (Limity): Signalizace pro rychlosti:
   - 54–60 km/h (Limit obec)
   - 134–140 km/h (Limit dálnice)
-- 🟥 **Červená** - nad 160 km/h! 
+- 🟥 **Červená:** nad 160 km/h! 
 
 ### 4. Palubní napětí ECU (`vlevo dole`)
 Sledování inteligentního dobíjení přímo ze senzoru jednotky.
