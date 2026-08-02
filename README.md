@@ -61,7 +61,7 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 2. Otevřete [mariohp.github.io/telemetry-monitor-flasher](https://mariohp.github.io/telemetry-monitor-flasher/).
 3. Z rozevíracího seznamu zvolte správnou desku (např. *"v1.1.0 - EA211 Universal 1.5 TSI EVO2 - ŠKODA, SEAT"*).
 4. Klikněte na tlačítko **Connect**, vyberte **COM port** a potvrďte.
-5. Klikněte na **INSTALL TELEMETRY MONITOR** a počkejte na dokončení 100 % (cca 2 min.).
+5. Klikněte na **INSTALL** a počkejte na dokončení 100 % (cca 2 min.).
 
 ---
 
