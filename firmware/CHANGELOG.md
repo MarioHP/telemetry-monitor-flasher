@@ -84,9 +84,9 @@ Digitální údaj přímo z řídící jednotky (přesnější než tachometr). 
 
 ### 4. Palubní napětí ECU (`vlevo dole`)
 Sledování inteligentního dobíjení přímo ze senzoru jednotky.
+- ⬜ **Šedá:*** Standardní dobíjení za jízdy.
+- 🟧 **Oranžová** Aktivní rekuperace (brzdění motorem, intenzivní dobíjení).
 - 🟥 **Červená:** Baterie se vybíjí (motor vypnutý/slabý alternátor).
-- 🟩 **Limetková:** Standardní dobíjení za jízdy.
-- 🟨 **Zlatá:** Aktivní rekuperace (brzdění motorem, intenzivní dobíjení).
 
 ### 4. Hladina oleje (`vpravo dole`)
 Přesné zobrazení náplně v mm - digitální měrka a výpočet množství chybějící náplně z aktuální výšky hladiny oleje, které je nutné dolít do maxima. 
