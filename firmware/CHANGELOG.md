@@ -22,8 +22,10 @@
     
 
   * Verze 1.1.1::
-    * VW [logo] / CUPRA [logo]
-    * VW [logo + text] / CUPRA [logo + text]
+    * VW *(pouze logo)*
+    * CUPRA *(pouze logo)*
+    * VW *(logo + text)*
+    * CUPRA *(logo + text)*
     
     
 * **🌐 Multijazyčná podpora:**
