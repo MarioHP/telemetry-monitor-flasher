@@ -39,17 +39,17 @@
 * **🚗 Startovací obrazovka:** Logo KAROQ + Sportline při startu.
 * **📊 Primární telemetrie:**
   * Rychlost (`km/h`)
-  * Teplota chladicí kapaliny
-  * Teplota motorového oleje
-  * Napětí ECU
-  * Hladina oleje
+  * Teplota chladicí kapaliny (`°C`)
+  * Teplota motorového oleje (`°C`)
+  * Napětí ECU (`V`)
+  * Hladina oleje (`mm`)
 * **📈 Doplňková telemetrie (EGT / OBD):**
-  * Napětí OBD
-  * Krouticí moment motoru
-  * Teplota katalyzátoru
-  * Teplota paliva
-  * Teplota výfukových plynů
-  * Degradace oleje
+  * Napětí OBD (`V`)
+  * Krouticí moment motoru (`Nm`)
+  * Teplota katalyzátoru (`°C`)
+  * Teplota paliva (`°C`)
+  * Teplota výfukových plynů (`°C`)
+  * Degradace oleje (`km`)
 * **OTA režim pro aktualizaci z mobilního telefonu**
 * **Webserver pro nastavení monitoru**
 * **🌐 Čeština**
