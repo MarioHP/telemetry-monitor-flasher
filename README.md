@@ -44,7 +44,7 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 * **📊 Živá telemetrie:**
   * Rychlost (`km/h`), Teplota chladicí kapaliny, Teplota oleje, Napětí ECU, Hladina oleje.
   * *EGT / OBD strana:* Napětí OBD, Krouticí moment motoru, Teplota katalyzátoru, Teplota paliva, Teplota výfukových plynů, Degradace oleje.
-* **🔧 Web Config Portal:** Integrované Wi-Fi přístupové rozhraní pro spásrování BT adaptéru (MAC adresa), změnu jazyka a volbu startovacího loga.
+* **🔧 Web Config Portal:** Integrované Wi-Fi přístupové rozhraní pro spárování BT adaptéru (MAC adresa), změnu jazyka a volbu startovacího loga.
 
 ---
 
