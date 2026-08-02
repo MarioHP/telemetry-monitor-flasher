@@ -1,6 +1,6 @@
 # 🏎️ TELEMETRY MONITOR — Web Installer
 <p align="center">
-<img src="https://github.com/MarioHP/telemetry-monitor-flasher/blob/main/images/logo.png" width="400" alt="Watch the video">
+<img src="https://github.com/MarioHP/telemetry-monitor-flasher/blob/main/images/logo.png" width="400" alt="logo">
 </p>  
 Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pro projekt **TELEMETRY MONITOR** přímo z prohlížeče bez nutnosti instalace jakéhokoliv vývojového prostředí (Arduino IDE, VS Code) nebo externích nástrojů (`esptool`).
 
@@ -68,6 +68,9 @@ Aby displej komunikoval s vaším OBD2 adaptérem v autě, musíte po flashnutí
 4. **Konfigurace parametrů:**
    * **Nová MAC adresa:** Zadejte MAC adresu vašeho Bluetooth OBD2 adaptéru (ve formátu `XX:XX:XX:XX:XX:XX`).
    * **Úvodní logo:** Vyberte preferované 3D logo při startu.
+   <p align="center">  
+   <img src="https://github.com/MarioHP/telemetry-monitor-flasher/blob/main/images/loga.png" width="400" alt="logo">
+   </p>  
    * **Jazyk:** Zvolte požadovaný jazyk rozhraní (Čeština, Slovenčina, English).
 5. **Uložení a restart:**
    * Stiskněte tlačítko **Uložit nastavení** / **Save Settings**.
