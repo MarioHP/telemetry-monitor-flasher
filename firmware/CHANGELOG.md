@@ -54,7 +54,56 @@
 * **Webserver pro nastavení monitoru**
 * **🌐 Čeština**
 ---
+## 📊 Funkční přehled zobrazovaných dat
 
+Systém monitoruje klíčové parametry s dynamickým uzpůsobením barev.
+
+### 1. Teplota motorového oleje (`OLEJ`)
+| Barva | Stav | Význam |
+| :--- | :--- | :--- |
+| 🟦 **Modrá** | Studený motor | Nepoužívat plný výkon |
+| 🟧 **Oranžová** | Zahřívání | Motor se blíží k provozní teplotě |
+| 🟩 **Limetková** | Ideální stav | Motor je plně prohřátý |
+| 🟥 **Červená** | Zvýšená zátěž | Např. dálnice nebo táhlé stoupání |
+
+### 2. Teplota chladicí kapaliny (`KAPALINA`)
+| Barva | Stav |
+| :--- | :--- |
+| 🟦 **Modrá** | Studená voda |
+| 🟧 **Oranžová** | Zahřívání |
+| 🟩 **Zelená** | Provozní teplota |
+| 🟥 **Červená** | Možné přetížení chladicího systému |
+
+### 3. Reálná rychlost (`RYCHLOST`)
+Digitální údaj přímo z řídící jednotky (přesnější než tachometr). Implementována **chytrá hystereze 2 km/h** proti problikávání barev.
+- ⬜ **Šedá:** Běžná rychlost.
+- 🟦 **Modrá** (Limity): Signalizace pro rychlosti:
+  - 54–60 km/h (Limit obec)
+  - 134–140 km/h (Limit dálnice)
+  - 🟥 **Červená** - nad 160 km/h! 
+
+### 4. Palubní napětí ECU (`NAPETI`)
+Sledování inteligentního dobíjení přímo ze senzoru jednotky.
+- 🟥 **Červená:** Baterie se vybíjí (motor vypnutý/slabý alternátor).
+- 🟩 **Limetková:** Standardní dobíjení za jízdy.
+- 🟨 **Zlatá:** Aktivní rekuperace (brzdění motorem, intenzivní dobíjení).
+
+### 4. Hladina oleje
+Přesné zobrazení náplně v mm - digitální měrka.
+- ⬜ **Šedá:** - OK
+- 🟧 **Oranžová** <40 mm (Varování)
+- 🟥 **Červená:** <36 mm (Dolít)
+
+---
+
+## 💡 Chytré funkce systému
+
+* **Hystereze:** Zabraňuje zběsilému přepínání barev při jízdě na hranici limitu (např. stabilní barva při kolísání 53-54 km/h).
+* **Smoothing (Vyhlazování):** Optimalizované čtení dat z OBD sběrnice, které nezatěžuje procesor a nezpůsobuje záseky vykreslování.
+* **Periferní scannability:** Barevné schéma je navrženo tak, aby řidič nemusel číst čísla – stačí vnímat barvu v zorném poli.
+
+---
+  
 ## 🛠️ Rozšířená kompatibilita motorů EA211 (Netestováno)
 
 Software obsahuje definice pro níže uvedené kódové označení motorů řady EA211. *Funkčnost na těchto motorech nebyla přímo ověřena, ale je teoreticky podporována:*
