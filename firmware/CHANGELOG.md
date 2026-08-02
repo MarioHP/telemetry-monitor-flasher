@@ -10,7 +10,7 @@
 
 ### ✨ Novinky a vylepšení
 * **🎨 Grafika a displej:**
-  * Optimalizace barev a kontrastu displeje pro lepší čitelnost na přímém slunci.
+  * Optimalizace barev displeje.
   * Nové úvodní logo **TELEMETRY MONITOR**.
 * **🏎️ Volba startovacího loga (3D Chrom):**
   * Možnost změny loga přímo v rozhraní nastavení (`/config`):
