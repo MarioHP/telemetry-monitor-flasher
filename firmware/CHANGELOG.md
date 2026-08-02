@@ -91,8 +91,8 @@ Sledování inteligentního dobíjení přímo ze senzoru jednotky.
 ### 4. Hladina oleje (`vpravo dole`)
 Přesné zobrazení náplně v mm - digitální měrka a výpočet množství chybějící náplně z aktuální výšky hladiny oleje, které je nutné dolít do maxima. 
 Údaj se mění s teplotou oleje, k ustálení dojde po zahřátí na provozní teplotu.
-- ⬜ **Šedá:** - OK
-- 🟧 **Oranžová** <40 mm (Varování)
+- ⬜ **Šedá:** OK
+- 🟧 **Oranžová:** <40 mm (Varování)
 - 🟥 **Červená:** <36 mm (Dolít)
 
 ---
