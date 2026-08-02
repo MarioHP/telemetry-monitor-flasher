@@ -20,6 +20,8 @@ To je ideální, pokud používáte **Android rádio / displej** v autě:
 
 * 🖨️ **3D Tisk & Krabička:** Pro profesionální vzhled v autě si můžete vytisknout vlastní krabičku:
   * Model ke stažení: [OBD 90 degree adapter na Printables.com](https://www.printables.com/model/1563102-obd-90-degree-adapter)
+  * Na adapter jsem použil konektory z [aliexpresu](https://www.aliexpress.com/item/1005003700654250.html).
+
 ---
 
 ## ⚡ Jak to funguje?
