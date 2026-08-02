@@ -1,9 +1,8 @@
 # Automatické spínání OBD napájení (ochrana proti vybití baterie)
 
-> **Autor:** MarioHP  
-> **Aplikace / Použití:** Škoda Karoq & další vozy koncernu VAG / OBD-II  
-
 Tento modul slouží k tomu, aby se diagnostický adaptér (např. **VGATE**, **ELM327**) v OBD zásuvce zapínal pouze tehdy, když je auto nastartované nebo je zapnuté zapalování. 
+
+<img src="images/obd/10.png" width="300" alt="logo">
 
 Běžně je totiž **pin 16 v OBD zásuvce pod trvalým proudem 12 V** z autobaterie, což znamená, že zapojený adaptér buď neustále odebírá proud, nebo se sám uspí, ale po novém nastartování se musí probudit tlačítkem (např. VGATE).
 
@@ -17,12 +16,14 @@ To je ideální, pokud používáte **Android rádio / displej** v autě:
 - Adaptér se po nastartování sám spáruje.
 - Data z auta (teploty, tlaky, otáčky, chybové kódy) máte zobrazená přímo na displeji palubní desky.
 - Funguje skvěle s aplikacemi jako **VAG DPF**, **Car Scanner**, **Torque**, **RealDash** apod. bez jakéhokoliv ručního zapínání.
-- *Osobní využití autora:* Vlastní **Telemetry monitor** ve voze Škoda Karoq.
 
 ---
 
 ## ⚡ Jak to funguje?
 
+<p align="center">
+<img src="images/obd/OBD_external_power.png" width="550" alt="schema">
+</p>  
 Celý obvod funguje jako **elektronické relé**, které reaguje na spínané napětí z auta (např. od zapalování, okruhu stěračů, rádia atd.).
 
 1. **Vstupní signál (Modrý vodič):**  
@@ -59,5 +60,18 @@ Celý obvod funguje jako **elektronické relé**, které reaguje na spínané na
 * **Konstrukce:** Pro stavbu lze použít univerzální plošný spoj. Vhodné je navrhnout a vytisknout krabičku / adaptér na OBD konektor (konektory lze snadno pořídit např. z AliExpressu).
 
 ---
+<table>
+  <tr>
+    <td align="center"><img src="images/obd/01.png" width="200" alt="Foto 01"></td>
+    <td align="center"><img src="images/obd/02.png" width="200" alt="Foto 02"></td>
+    <td align="center"><img src="images/obd/03.png" width="200" alt="Foto 03"></td>
+    <td align="center"><img src="images/obd/04.png" width="200" alt="Foto 04"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/obd/05.png" width="200" alt="Foto 05"></td>
+    <td align="center"><img src="images/obd/06.png" width="200" alt="Foto 06"></td>
+    <td align="center"><img src="images/obd/07.png" width="200" alt="Foto 07"></td>
+    <td align="center"><img src="images/obd/08.png" width="200" alt="Foto 08"></td>
+  </tr>
+</table>
 
-*Původně publikováno na fóru ŠKODAHOME.cz uživatelem **MarioHP**.*
