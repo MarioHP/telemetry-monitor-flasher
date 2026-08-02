@@ -21,7 +21,7 @@
     * Škoda *(Sportline)*
     
 
-  * Verze 1.1.1::
+  * Verze 1.1.1:
     * VW *(pouze logo)*
     * CUPRA *(pouze logo)*
     * VW *(logo + text)*
