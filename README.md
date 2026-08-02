@@ -17,14 +17,14 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 
 ## 🚗 Kompatibilita s motory
 
-* **Otestováno & 100% Funkční:** Engine **1.5 TSI EVO2 (DXD)** – Škoda Karoq
+* **Otestováno & 100% Funkční:** motor **1.5 TSI EVO2 (DXD)** – Škoda Karoq
 * **Rozšířená kompatibilita EA211 (Netestováno v provozu):** Software obsahuje parametry a obsluhu i pro ostatní motory řady EA211 (`1.0 TSI`, `1.2 TSI`, `1.4 TSI`, `1.5 TSI`).
   * 📜 **[Kompletní seznam podporovaných kódů motorů najdete ZDE](firmware/ea211-engine-codes.md)**
 
 
 ## 🖨️ Hardware & Podporované desky
 
-### 1. Ideaspark ESP32 1.9" TFT 
+### Ideaspark ESP32 1.9" TFT 
 * **Displej:** 1.9" ST7789 TFT (170×320 px)
 * **Deska:** Ideaspark ESP32 Development Board
 * 🖨️ **3D Tisk & Krabička:** Pro profesionální vzhled a ochranu displeje v autě si můžete vytisknout vlastní krabičku:
@@ -32,10 +32,15 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
  
 ---
 
-## ✨ Klíčové funkce firmwaru (v1.1.0)
+## ✨ Klíčové funkce firmwaru v1.1.0(1)
 
 * **🌐 Vícejazyčné rozhraní:** Volba jazyka v konfiguraci (Čeština / Slovenčina / English).
-* **🏎️ Volba úvodního loga:** Možnost vybrat startovací chromové 3D logo automobilky (Škoda, SEAT, Sportline).
+* **🏎️ Volba úvodního loga:** Možnost vybrat startovací chromové 3D logo automobilky (Škoda, SEAT, Sportline, VW, CUPRA).
+  
+     <p align="center">  
+   <img src="https://github.com/MarioHP/telemetry-monitor-flasher/blob/main/images/loga.png" width="400" alt="logo">
+   </p>  
+   
 * **📊 Živá telemetrie:**
   * Rychlost (`km/h`), Teplota chladicí kapaliny, Teplota oleje, Napětí ECU, Hladina oleje.
   * *EGT / OBD strana:* Napětí OBD, Krouticí moment motoru, Teplota katalyzátoru, Teplota paliva, Teplota výfukových plynů, Degradace oleje.
@@ -54,9 +59,9 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 #### Postup instalace
 1. Připojte ESP32 pomocí USB kabelu k PC.
 2. Otevřete [mariohp.github.io/telemetry-monitor-flasher](https://mariohp.github.io/telemetry-monitor-flasher/).
-3. Z rozevíracího seznamu zvolte správnou desku (např. *v1.1.0 - EA211 Universal 1.5 TSI EVO2 - ŠKODA, SEAT"*).
+3. Z rozevíracího seznamu zvolte správnou desku (např. *"v1.1.0 - EA211 Universal 1.5 TSI EVO2 - ŠKODA, SEAT"*).
 4. Klikněte na tlačítko **Connect**, vyberte **COM port** a potvrďte.
-5. Klikněte na **INSTALL TELEMETRY MONITOR** a počkejte na dokončení (100 %).
+5. Klikněte na **INSTALL TELEMETRY MONITOR** a počkejte na dokončení 100 % (cca 2 min.).
 
 ---
 
@@ -77,11 +82,7 @@ Aby displej komunikoval s vaším OBD2 adaptérem v autě, musíte po flashnutí
      `http://10.10.10.10/config`
 4. **Konfigurace parametrů:**
    * **Nová MAC adresa:** Zadejte MAC adresu vašeho Bluetooth OBD2 adaptéru (ve formátu `XX:XX:XX:XX:XX:XX`).
-   * **Úvodní logo:** Vyberte preferované 3D logo při startu.
-   <p align="center">  
-   <img src="https://github.com/MarioHP/telemetry-monitor-flasher/blob/main/images/loga.png" width="400" alt="logo">
-   </p>  
-   
+   * **Úvodní logo:** Vyberte preferované 3D logo při startu.  
    * **Jazyk:** Zvolte požadovaný jazyk rozhraní (Čeština, Slovenčina, English).
 5. **Uložení a restart:**
    * Stiskněte tlačítko **Uložit nastavení** / **Save Settings**.
@@ -126,7 +127,7 @@ MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC
 * **Zařízení píše "ZTRÁTA DAT" / "DATA LOSS":**
   * Ověřte, zda je v konfiguraci na `http://10.10.10.10/config` zadaná správná MAC adresa vašeho BT adaptéru a zda je adaptér zapojený v OBD2 zásuvce auta.
 * **Instalace se zasekne na 0 %:**
-  * Při stisknutí tlačítka *Install* podržte na desce ESP32 tlačítko **BOOT** / **IO0**, dokud se nahrávání nerozběhne.
+  * Při stisknutí tlačítka *Install* podržte na desce ESP32 tlačítko **BOOT**, dokud se nahrávání nerozběhne.
 
 ---
 
