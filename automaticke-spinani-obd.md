@@ -25,6 +25,7 @@ To je ideální, pokud používáte **Android rádio / displej** v autě:
 <p align="center">
 <img src="images/obd/OBD_external_power.png" width="550" alt="schema">
 </p>  
+
 Celý obvod funguje jako **elektronické relé**, které reaguje na spínané napětí z auta (např. od zapalování, okruhu stěračů, rádia atd.).
 
 1. **Vstupní signál (Modrý vodič):**  
