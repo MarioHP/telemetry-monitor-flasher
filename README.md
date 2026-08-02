@@ -1,6 +1,6 @@
 # 🏎️ TELEMETRY MONITOR — Web Installer
 <p align="center">
-<img src="https://github.com/MarioHP/telemetry-monitor-flasher/blob/main/images/logo.png" width="400" alt="logo">
+<img src="images/logo.png" width="400" alt="logo">
 </p>  
 Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pro projekt **TELEMETRY MONITOR** přímo z prohlížeče bez nutnosti instalace jakéhokoliv vývojového prostředí (Arduino IDE, VS Code) nebo externích nástrojů (`esptool`).
 
@@ -38,7 +38,7 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 * **🏎️ Volba úvodního loga:** Možnost vybrat startovací chromové 3D logo automobilky (Škoda, SEAT, Sportline, VW, CUPRA).
   
      <p align="center">  
-   <img src="https://github.com/MarioHP/telemetry-monitor-flasher/blob/main/images/loga.png" width="400" alt="logo">
+   <img src="images/loga.png" width="400" alt="logo">
    </p>  
    
 * **📊 Živá telemetrie:**
