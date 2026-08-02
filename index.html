@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telemetry Monitor - Web Installer</title>
+    <title>TELEMETRY MONITOR - Web Installer</title>
     <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
     <style>
         body { background-color: #111; color: #fff; font-family: Arial, sans-serif; text-align: center; padding: 40px 20px; }
@@ -31,14 +31,23 @@
 <body>
 
 <div class="card">
-    <h1>Škoda Telemetry Monitor</h1>
+    <h1>TELEMETRY MONITOR</h1>
     <h3>Web Firmware Installer</h3>
     <p>created by Mario</p>
     <p>Vyberte verzi firmwaru, připojte zařízení k PC a klikněte na Connect.</p>
-    
+       
     <!-- Výběr verze -->
     <select id="versionSelect" onchange="updateVersion()">
-      <option value="v1.0.0">v1.0.0 - KAROQ Sportline 1.5 TSI EVO2 - Ideaspark 1.9 display</option>
+        <optgroup label="Ideaspark 1.9″ Display">
+            <option value="v1.1.1_ideaspark">v1.1.1 - EA211 Universal 1.5 TSI EVO2 - VW, CUPRA</option>
+            <option value="v1.1.0_ideaspark">v1.1.0 - EA211 Universal 1.5 TSI EVO2 - ŠKODA, SEAT</option>
+            <option value="v1.0.0_ideaspark">v1.0.0 - KAROQ Sportline 1.5 TSI EVO2</option>
+        </optgroup>
+        
+         <!-- <optgroup label="LilyGO T-Display-S3 (Připravuje se)">
+            <!-- <option value="v1.1.0_lilygo_s3">v1.1.0 - EA211 Universal (DXD) - LilyGO T-Display-S3</option>
+        </optgroup> -->
+        
     </select>
 
     <!-- Popis verze -->
@@ -49,8 +58,44 @@
 </div>
 
 <script>
-    const versionData = { 
-        "v1.0.0": {
+    const versionData = {
+        "v1.1.1_ideaspark": {
+            manifest: "manifest_v1.1.1.json",
+            description: `
+            <b>Verze 1.1.1 (EA211 Universal):</b>
+                <ul>
+                  <li>Stejné funkce jako verze 1.1.0</li>
+                  <li>Do nastavení doplněna volba loga při startu (3D chrom):
+                    <ul>
+                      <li>VW [logo] / CUPRA [logo]</li>
+                      <li>VW [logo + text] / CUPRA [logo + text]</li>
+                    </ul>
+                  </li>
+                </ul>
+            `
+        },     
+        "v1.1.0_ideaspark": {
+            manifest: "manifest_v1.1.0.json",
+            description: `
+            <b>Verze 1.1.0 (EA211 Universal):</b>
+                <ul>
+                  <li>Otestováno a primárně určeno pro motor DXD (EA211 1.5 TSI KAROQ)</li>
+                  <li>Optimalizace barev a kontrastu displeje</li>
+                  <li>Nové úvodní logo TELEMETRY MONITOR</li>
+                  <li>Do nastavení doplněna volba loga při startu (3D chrom):
+                    <ul>
+                      <li>Škoda [logo] / SEAT [logo]</li>
+                      <li>Škoda [logo + text] / SEAT [logo + text]</li>
+                      <li>Škoda [Sportline]</li>
+                    </ul>
+                  </li>
+                  <li>Do nastavení doplněna volba jazyka (CZ / SK / EN)</li>
+                  <li><b>Rozšířená kompatibilita EA211 (netestováno):</b><br>
+                  <small style="color:#aaa;">CMBA, CPVA, CXSA, CXSB, CPVB, CHPA, CHPB, CZCC, CZCA, CZCB, CZDB, CZDA, CZTA, CVNA, CPTA, CZEA, DGXA, DJKA, DJZA, DJSA, DLEA, CHZA, CYVA, CYVB, DACA, DADA, DPCA, DSBA</small></li>
+                </ul>
+            `
+        },    
+        "v1.0.0_ideaspark": {
             manifest: "manifest_v1.0.0.json",
             description: `
                 <b>Verze 1.0.0 (Původní release):</b>
@@ -58,6 +103,8 @@
                   <li>Logo KAROQ + Sportline při startu</li>
                   <li>Základní telemetrie: rychlost, teplota kapaliny a oleje, napětí ECU a hladina oleje</li>
                   <li>Doplňková telemetrie: napětí OBD, kroutící moment motoru, teplota katalyzátoru, paliva a výfuku, degradace oleje</li>
+                  <li>OTA režim pro aktualizaci</li>
+                  <li>Webserver pro nastavení monitoru</li>
                   <li>Primárně určeno pro motor DXD (EA211 1.5 TSI KAROQ)</li>
                   <li><b>Rozšířená kompatibilita EA211 (netestováno):</b><br>
                   <small style="color:#aaa;">CMBA, CPVA, CXSA, CXSB, CPVB, CHPA, CHPB, CZCC, CZCA, CZCB, CZDB, CZDA, CZTA, CVNA, CPTA, CZEA, DGXA, DJKA, DJZA, DJSA, DLEA, CHZA, CYVA, CYVB, DACA, DADA, DPCA, DSBA</small></li>                    

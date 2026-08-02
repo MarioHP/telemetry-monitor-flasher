@@ -1,0 +1,14 @@
+{
+  "name": "EA211 Universal 1.5 TSI EVO2",
+  "version": "v1.1.1",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/v1.1.0/bootloader.bin", "offset": 4096 },
+        { "path": "firmware/v1.1.0/partitions.bin", "offset": 32768 },
+        { "path": "firmware/v1.1.0/firmware_v1.1.1.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
