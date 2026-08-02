@@ -127,13 +127,16 @@ MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC
 
 Pro budoucí aktualizace kódu už nepotřebujete USB kabel. Vše probíhá bezdrátově přes rozhraní **OTA (Over-The-Air)**:
 
-1. Stáhněte si do mobilu nový soubor firmwaru s příponou **`.bin`**:  
-   👉 [v1.0.0 - KAROQ Sportline 1.5 TSI EVO2 - Ideaspark 1.9 display](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware/v1.0.0/firmware_v1.0.0.bin)
-2. Spusťte servisní režim na monitoru (podržením horního tlačítka (BOOT) při zapnutí).
-3. Připojte mobil k Wi-Fi síti monitoru a v prohlížeči otevřete:  
+1. Stáhněte si do mobilu nový soubor firmwaru s příponou **`.bin`**:
+
+   - 👉 [v1.1.1 – EA211 Universal 1.5 TSI EVO2 – VW, CUPRA – Ideaspark 1.9 display](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware/v1.1.1/firmware_v1.1.1.bin)
+   - 👉 [v1.1.0 – EA211 Universal 1.5 TSI EVO2 – ŠKODA, SEAT – Ideaspark 1.9 display](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware/v1.1.0/firmware_v1.1.0.bin)
+   - 👉 [v1.0.0 – KAROQ Sportline 1.5 TSI EVO2 – Ideaspark 1.9 display](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware/v1.0.0/firmware_v1.0.0.bin)
+3. Spusťte servisní režim na monitoru (podržením horního tlačítka (BOOT) při zapnutí).
+4. Připojte mobil k Wi-Fi síti monitoru a v prohlížeči otevřete:  
    👉 **`10.10.10.10/update`**
-4. Vyberte stažený soubor `.bin` z paměti telefonu a stiskněte **Update** (Aktualizovat).
-5. Během několika vteřin se nový firmware nahraje, monitor se sám restartuje a naskočí v nejnovější verzi! 🎉
+5. Vyberte stažený soubor `.bin` z paměti telefonu a stiskněte **Update** (Aktualizovat).
+6. Během několika vteřin se nový firmware nahraje, monitor se sám restartuje a naskočí v nejnovější verzi! 🎉
 
 ---
 
