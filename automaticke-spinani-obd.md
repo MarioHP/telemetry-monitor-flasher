@@ -18,6 +18,8 @@ To je ideální, pokud používáte **Android rádio / displej** v autě:
 - Data z auta (teploty, tlaky, otáčky, chybové kódy) máte zobrazená přímo na displeji palubní desky.
 - Funguje skvěle s aplikacemi jako **VAG DPF**, **Car Scanner**, **Torque**, **RealDash** apod. bez jakéhokoliv ručního zapínání.
 
+* 🖨️ **3D Tisk & Krabička:** Pro profesionální vzhled a ochranu displeje v autě si můžete vytisknout vlastní krabičku:
+  * Model ke stažení: [OBD 90 degree adapter na Printables.com](https://www.printables.com/model/1563102-obd-90-degree-adapter)
 ---
 
 ## ⚡ Jak to funguje?
