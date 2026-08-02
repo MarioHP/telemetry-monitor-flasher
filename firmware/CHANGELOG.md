@@ -20,7 +20,8 @@
     * SEAT *(logo + text)*
     * Škoda *(Sportline)*
     
-* **Verze 1.1.1:**
+
+  * Verze 1.1.1::
     * VW [logo] / CUPRA [logo]*
     * VW [logo + text] / CUPRA [logo + text]*
     
