@@ -109,7 +109,7 @@ Přesné zobrazení náplně v mm - digitální měrka a výpočet množství ch
   
 ## 🛠️ Rozšířená kompatibilita motorů EA211 (Netestováno)
 
-Software obsahuje definice pro níže uvedené kódové označení motorů řady EA211. *Funkčnost na těchto motorech nebyla přímo ověřena, ale je teoreticky podporována:*
+Software obsahuje definice pro níže uvedené kódové označení motorů řady EA211. *Funkčnost na těchto motorech nebyla přímo ověřena, ale je teoreticky podporována:
 
 | Řada | Kódy motorů |
 | :--- | :--- |
