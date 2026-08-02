@@ -6,7 +6,7 @@
 
 ### 🚗 Podpora motorů & HW
 * **Otestováno & Potvrzeno:** Motor **1.5 TSI (DXD)** – Škoda Karoq
-* **Podporovaný hardwarový modul:** Ideaspark ESP32 1.9" Display *(příprava pro LilyGO T-Display-S3)*
+* **Podporovaný hardwarový modul:** Ideaspark ESP32 1.9" Display 
 
 ### ✨ Novinky a vylepšení
 * **🎨 Grafika a displej:**
