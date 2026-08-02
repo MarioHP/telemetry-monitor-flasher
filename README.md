@@ -7,12 +7,13 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 🌐 **Webový instalátor běží na adrese:**  
 👉 **[mariohp.github.io/telemetry-monitor-flasher/](https://mariohp.github.io/telemetry-monitor-flasher/)**
 
-<p align="center">
-<b>🎥 VIDEO S UKÁZKOU MONITORU</b><br>
-<a href="https://youtu.be/QvaUA5twQTg">
-  <img src="https://img.youtube.com/vi/QvaUA5twQTg/maxresdefault.jpg" width="400" alt="Watch the video">
-</a>
-</p>
+<div align="center">
+  <h3>🎥 Ukázka monitoru v reálném provozu</h3>
+  <a href="https://youtu.be/QvaUA5twQTg" target="_blank">
+    <img src="https://img.youtube.com/vi/QvaUA5twQTg/maxresdefault.jpg" width="550" alt="Škoda KAROQ hidden engine multipage telemetry monitor" style="border-radius: 8px; border: 1px solid #333;">
+  </a>
+  <p><i>Klikněte na obrázek pro přehrání videa na YouTube.</i></p>
+</div>
 
 ## 🚗 Kompatibilita s motory
 
@@ -20,6 +21,15 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 * **Rozšířená kompatibilita EA211 (Netestováno v provozu):** Software obsahuje parametry a obsluhu i pro ostatní motory řady EA211 (`1.0 TSI`, `1.2 TSI`, `1.4 TSI`, `1.5 TSI`).
   * 📜 **[Kompletní seznam podporovaných kódů motorů najdete ZDE](firmware/ea211-engine-codes.md)**
 
+
+## 🖨️ Hardware & Podporované desky
+
+### 1. Ideaspark ESP32 1.9" TFT 
+* **Displej:** 1.9" ST7789 TFT (170×320 px)
+* **Deska:** Ideaspark ESP32 Development Board
+* 🖨️ **3D Tisk & Krabička:** Pro profesionální vzhled a ochranu displeje v autě si můžete vytisknout vlastní krabičku:
+  * Model ke stažení: [IdeaSpark ESP32 1.9" Display Case na Printables.com](https://www.printables.com/model/1169046-ideaspark-esp32-19-display-case)
+ 
 ---
 
 ## ✨ Klíčové funkce firmwaru (v1.1.0)
