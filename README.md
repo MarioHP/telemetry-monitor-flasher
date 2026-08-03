@@ -93,10 +93,11 @@ Aby displej komunikoval s vaším OBD2 adaptérem v autě, musíte po flashnutí
 Pro budoucí aktualizace kódu už nepotřebujete USB kabel. Vše probíhá bezdrátově přes rozhraní **OTA (Over-The-Air)**:
 
 1. Stáhněte si do mobilu nový soubor firmwaru s příponou **`.bin`**:
+   
+- 👉 [v1.1.1 – EA211 Universal 1.5 TSI EVO2 – VW, CUPRA – Ideaspark 1.9 display](https://github.com/MarioHP/telemetry-monitor-flasher/releases/download/firmware-v1.1.0/firmware_v1.1.1.bin)
+- 👉 [v1.1.0 – EA211 Universal 1.5 TSI EVO2 – ŠKODA, SEAT – Ideaspark 1.9 display](https://github.com/MarioHP/telemetry-monitor-flasher/releases/download/firmware-v1.1.0/firmware_v1.1.0.bin)
+- 👉 [v1.0.0 – KAROQ Sportline 1.5 TSI EVO2 – Ideaspark 1.9 display](https://github.com/MarioHP/telemetry-monitor-flasher/releases/download/firmware-v1.0.0/firmware_v1.0.0.bin)
 
-   - 👉 [v1.1.1 – EA211 Universal 1.5 TSI EVO2 – VW, CUPRA – Ideaspark 1.9 display](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware/v1.1.1/firmware_v1.1.1.bin)
-   - 👉 [v1.1.0 – EA211 Universal 1.5 TSI EVO2 – ŠKODA, SEAT – Ideaspark 1.9 display](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware/v1.1.0/firmware_v1.1.0.bin)
-   - 👉 [v1.0.0 – KAROQ Sportline 1.5 TSI EVO2 – Ideaspark 1.9 display](https://raw.githubusercontent.com/mariohp/telemetry-monitor-flasher/main/firmware/v1.0.0/firmware_v1.0.0.bin)
 3. Spusťte servisní režim na monitoru (**podržením horního tlačítka** (BOOT) při zapnutí).
 4. Připojte mobil k Wi-Fi síti monitoru a v prohlížeči otevřete:  
    👉 **`10.10.10.10/update`**
