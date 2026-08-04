@@ -7,7 +7,7 @@
       "parts": [
         { "path": "firmware/v1.1.0/bootloader.bin", "offset": 4096 },
         { "path": "firmware/v1.1.0/partitions.bin", "offset": 32768 },
-        { "path": "firmware/v1.1.0/firmware_v1.1.1.bin", "offset": 65536 }
+        { "path": "https://github.com/MarioHP/telemetry-monitor-flasher/releases/download/firmware-v1.1.0/firmware_v1.1.1.bin", "offset": 65536 }
       ]
     }
   ]
