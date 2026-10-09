@@ -129,8 +129,6 @@ MAC adresa je unikátní 12místný kód (vypadá např. jako `11:22:33:AA:BB:CC
   * Vyzkoušejte jiný USB kabel.
 * **Zařízení píše "ZTRÁTA DAT" / "DATA LOSS":**
   * Ověřte, zda je v konfiguraci na `http://10.10.10.10/config` zadaná správná MAC adresa vašeho BT adaptéru a zda je adaptér zapojený v OBD2 zásuvce auta.
-* **Instalace se zasekne na 0 %:**
-  * Při stisknutí tlačítka *Install* podržte na desce ESP32 tlačítko **BOOT**, dokud se nahrávání nerozběhne.
 
 ---
 
