@@ -1,0 +1,14 @@
+{
+  "name": "EA211 Universal 1.5 TSI EVO2 - VW, CUPRA",
+  "version": "v1.2.1",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/v1.2.1/bootloader.bin", "offset": 4096 },
+        { "path": "firmware/v1.2.1/partitions.bin", "offset": 32768 },
+        { "path": "firmware/v1.2.1/firmware_v1.2.1.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}

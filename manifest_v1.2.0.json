@@ -1,0 +1,14 @@
+{
+  "name": "EA211 Universal 1.5 TSI EVO2 - SKODA, SEAT",
+  "version": "v1.2.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/v1.2.0/bootloader.bin", "offset": 4096 },
+        { "path": "firmware/v1.2.0/partitions.bin", "offset": 32768 },
+        { "path": "firmware/v1.2.0/firmware_v1.2.0.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
