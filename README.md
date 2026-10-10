@@ -32,7 +32,7 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
  
 ---
 
-## ✨ Klíčové funkce firmwaru v1.1.0(1)
+## ✨ Klíčové funkce
 
 * **🌐 Vícejazyčné rozhraní:** Volba jazyka v konfiguraci (Čeština / Slovenčina / English).
 * **🏎️ Volba úvodního loga:** Možnost vybrat startovací chromové 3D logo automobilky (Škoda, SEAT, Sportline, VW, CUPRA).
