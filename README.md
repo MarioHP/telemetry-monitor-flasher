@@ -41,11 +41,16 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
    <img src="images/loga.png" width="400" alt="loga">
    </p>  
    
-* **📊 Živá telemetrie:**
-  * Rychlost (`km/h`), Teplota chladicí kapaliny, Teplota oleje, Napětí ECU, Hladina oleje.
-  * *EGT / OBD strana:* Napětí OBD, Krouticí moment motoru, Teplota katalyzátoru, Teplota paliva, Teplota výfukových plynů, Degradace oleje.
+* **📊 Přehled zobrazovaných stránek:**
+1. **Hlavní telemetrie za jízdy:** teplota chladicí kapaliny, teplota oleje, digitální rychloměr, napětí a digitální měrka oleje
+2. **Motor & OBD diagnostika:** napětí OBD, krouticí moment motoru, teplota katalyzátoru, teplota paliva, teplota výfukových plynů, degradace oleje.
+3. **12V Baterie & Dobíjení:** kompletní stav akumulátoru, odpor, proud, nabití (SOC) a zdraví (SOH).
+    
 * **🔧 Web Config Portal:** Integrované Wi-Fi přístupové rozhraní pro spárování BT adaptéru (MAC adresa), změnu jazyka a volbu startovacího loga.
-
+  
+   <p align="center">  
+   <img src="images/LOGO config.png" width="200" alt="config">
+   </p>  
 ---
 
 ## 🛠️ Jak nahrát firmware a nakonfigurovat MAC adresu
