@@ -28,7 +28,7 @@ Tento repozitář slouží k pohodlnému nahrávání (flashování) firmwaru pr
 * **Displej:** 1.9" ST7789 TFT (170×320 px)
 * **Deska:** Ideaspark ESP32 Development Board
 * 🖨️ **3D Tisk & Krabička:** Pro profesionální vzhled a ochranu displeje v autě si můžete vytisknout vlastní krabičku:
-  * Model ke stažení: [IdeaSpark ESP32 1.9" Display Case na Printables.com](https://www.printables.com/model/1169046-ideaspark-esp32-19-display-case)
+  * Model ke stažení: [IdeaSpark ESP32 1.9" Display Case na Printables.com](https://www.printables.com/model/1580661-ideaspark-esp32-19-display-case)
  
 ---
 
